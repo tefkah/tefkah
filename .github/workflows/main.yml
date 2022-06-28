@@ -18,6 +18,8 @@ jobs:
           token: ${{ secrets.PAT }}
           file: 'README.md'
           minimum: 500
+          template: '<a href="https://github.com/{{{ login }}}"><img src="https://github.com/{{{ login }}}.png" style="border-radius: 50%; margin-right: 1rem" width="60px" alt="{{{ name }}}" /></a>'
+
       - name: '[commit changes]'
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
