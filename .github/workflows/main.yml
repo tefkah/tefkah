@@ -18,7 +18,6 @@ jobs:
           token: ${{ secrets.PAT }}
           file: 'README.md'
           minimum: 500
-          marker: 'gold'
       - name: '[commit changes]'
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
