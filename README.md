@@ -1,4 +1,4 @@
-**Pronouns** he/they
+
 
 # ❤️ Sponsors
 
